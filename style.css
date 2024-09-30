@@ -1,0 +1,98 @@
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+          
+           background-image:url("b.avif");
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Form Container */
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+            width: 350px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #fff;
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+            text-align: left;
+        }
+
+        label {
+            color: #fff;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            margin-top: 8px;
+            outline: none;
+        }
+
+        input[type="text"], input[type="email"], input[type="password"] {
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+
+        .submit-btn {
+            width: 100%;
+            padding: 12px;
+            background-color: #FF6F61;
+            color: #fff;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+
+        .submit-btn:hover {
+            background-color: #E04D4B;
+        }
+
+        p.error {
+            color: #FF0000;
+            font-size: 12px;
+            margin-top: 5px;
+        }
+
+        /* Link Styling */
+        .toggle {
+            color: #FFF;
+            font-size: 14px;
+            margin-top: 15px;
+        }
+
+        .toggle a {
+            color: #00B4D8;
+            text-decoration: none;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .container {
+                width: 85%;
+                padding: 20px;
+            }
+        }
